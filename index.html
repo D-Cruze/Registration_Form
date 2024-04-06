@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="reg">Registration Form</h1>
+            <p class="pc">*Please fill this form to register with us*</p>
+            <hr/>
+
+            <label for="fn"><b>First name</b></label>
+            <input type="text" placeholder="Enter your first name" name="fn" id="fn" required/>
+
+            <label for="ln"><b>Last name</b></label>
+            <input type="text" placeholder="Enter your last name" name="ln" id="ln" required/>
+
+            <label for="mn"><b>Middle Name</b></label>
+            <input type="text" placeholder="Enter your middle name (optional)" name="mn" id="mn"/>
+
+    
+            <label for="course"><b>Course name</b></label>
+            <select name="course" id="course" required>
+                <option value="cs" >Select course</option>
+                <option value="fd">Front-end development</option>
+                <option value="bd">Back-end development</option>
+                <option value="py">Python</option>
+                <option value="jv">Java</option>
+                <option value="ai">Artifical Intelligence</option>
+                <option value="ml">Machine Learning</option>
+            </select>
+
+            <label for="du"><b>Course duration</b></label>
+            <select name="du" id="du" required>
+                <option value="cd" >Select duration</option>
+                <option value="tm">3 months</option>
+                <option value="sm">6 months</option>
+            </select>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" id="password" required/>
+
+            <label for="cpassword"><b>Confirm password</b></label>
+            <input type="password" placeholder="Confirm password" name="cpassword" id="cpassword" required/>
+
+            <hr/>
+            <p class="pc">Course mode: Online <br> Start date: Apr 24, 2024
+            <button class="rb" type="submit">Register</button></p>
+           
+        </div>
+    </body>
+</html>
